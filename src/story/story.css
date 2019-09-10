@@ -1,0 +1,41 @@
+.story-wrapper {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	font-family: sans-serif;
+
+
+}
+
+.story-image{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border-color: #0749bb;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+
+}
+
+.story-content{
+	margin-left: 10px;
+}
+
+.story-name {
+	color: #111985;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.story-name:hover{
+	text-decoration: underline;
+}
+
+.story-time {
+	color: #757a83;
+	font-size: 13px;
+}
+
